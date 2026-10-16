@@ -5,9 +5,9 @@ import { ArrowRight, CheckCircle, ShieldCheck, Award, Layers } from 'lucide-reac
 
 export const OperationalPage: React.FC = () => {
   return (
-    <div className="bg-white pt-24 md:pt-28">
+    <div className="bg-white">
       {/* SECTION 1: OPERATIONAL HERO */}
-      <section className="relative py-20 bg-hero-gradient text-white overflow-hidden">
+      <section className="relative pt-32 pb-20 md:pt-40 md:pb-24 bg-hero-gradient text-white overflow-hidden">
         <div className="absolute inset-0 opacity-15 pointer-events-none">
           <img src="/assets/img/banners/operational.svg" alt="" className="w-full h-full object-cover" />
         </div>

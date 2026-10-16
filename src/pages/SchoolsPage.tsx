@@ -9,9 +9,9 @@ export const SchoolsPage: React.FC = () => {
   const activeSchool = GES_DATA.schools.find((s) => s.id === selectedSchoolId) || GES_DATA.schools[0];
 
   return (
-    <div className="bg-white pt-24 md:pt-28">
+    <div className="bg-white">
       {/* SECTION 1: SCHOOLS HERO */}
-      <section className="relative py-20 bg-hero-gradient text-white overflow-hidden">
+      <section className="relative pt-32 pb-20 md:pt-40 md:pb-24 bg-hero-gradient text-white overflow-hidden">
         <div className="absolute inset-0 opacity-15 pointer-events-none">
           <img src="/assets/img/banners/schools.svg" alt="" className="w-full h-full object-cover" />
         </div>
