@@ -37,9 +37,9 @@ export interface NewsItem {
   date: string;
   img: string;
   url: string;
-  category: 'latest' | 'popular' | 'international' | 'local';
+  category: string;
   summary?: string;
-  language?: 'en' | 'ar';
+  language?: string;
 }
 
 export interface StoryVideo {
