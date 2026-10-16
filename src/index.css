@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-primary: #1F265A;
+    --brand-primary-dark: #102448;
+    --brand-primary-light: #253D84;
+    --brand-blue: #0064D3;
+    --brand-azure: #3365B0;
+    --brand-accent: #E53239;
+    --brand-gold: #F5AF02;
+    --brand-green: #85B826;
+    --brand-background: #FFFFFF;
+    --brand-surface: #F8FAFC;
+    --brand-surface-muted: #F1F5F9;
+    --brand-text: #0F172A;
+    --brand-muted: #64748B;
+    --brand-border: #E2E8F0;
+  }
+
+  body {
+    color: var(--brand-text);
+    background-color: var(--brand-background);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Subtle architectural motifs extracted from GES logo geometry */
+.brand-motif-arc {
+  position: relative;
+}
+.brand-motif-arc::after {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 6px;
+  background: linear-gradient(90deg, #E53239 0%, #0064D3 50%, #85B826 100%);
+  border-radius: 999px;
+  bottom: -12px;
+  left: 0;
+}
+
+.brand-motif-arc-center::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Editorial subtle borders */
+.editorial-border-b {
+  border-bottom: 1px solid rgba(31, 38, 90, 0.1);
+}
+.editorial-border-t {
+  border-top: 1px solid rgba(31, 38, 90, 0.1);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Focus styles for keyboard accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid #E53239;
+  outline-offset: 2px;
+}

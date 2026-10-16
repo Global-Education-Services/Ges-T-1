@@ -1,0 +1,87 @@
+[
+  {
+    "path": "/",
+    "componentName": "eh",
+    "index": 276247
+  },
+  {
+    "path": "/about",
+    "componentName": "th",
+    "index": 276289
+  },
+  {
+    "path": "/operational",
+    "componentName": "nh",
+    "index": 276336
+  },
+  {
+    "path": "/schools",
+    "componentName": "rh",
+    "index": 276389
+  },
+  {
+    "path": "/partner",
+    "componentName": "ih",
+    "index": 276438
+  },
+  {
+    "path": "/careers",
+    "componentName": "lh",
+    "index": 276487
+  },
+  {
+    "path": "/news",
+    "componentName": "oh",
+    "index": 276536
+  },
+  {
+    "path": "/contact",
+    "componentName": "ah",
+    "index": 276582
+  },
+  {
+    "path": "/index.php",
+    "componentName": "Tt",
+    "index": 276631
+  },
+  {
+    "path": "/about.php",
+    "componentName": "Tt",
+    "index": 276699
+  },
+  {
+    "path": "/operational.php",
+    "componentName": "Tt",
+    "index": 276772
+  },
+  {
+    "path": "/schools.php",
+    "componentName": "Tt",
+    "index": 276857
+  },
+  {
+    "path": "/partner.php",
+    "componentName": "Tt",
+    "index": 276934
+  },
+  {
+    "path": "/careers.php",
+    "componentName": "Tt",
+    "index": 277011
+  },
+  {
+    "path": "/news.php",
+    "componentName": "Tt",
+    "index": 277088
+  },
+  {
+    "path": "/contact.php",
+    "componentName": "Tt",
+    "index": 277159
+  },
+  {
+    "path": "*",
+    "componentName": "Tt",
+    "index": 277236
+  }
+]

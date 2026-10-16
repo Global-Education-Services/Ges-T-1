@@ -1,0 +1,183 @@
+{
+  "viewportsTested": [
+    {
+      "width": 320,
+      "height": 600,
+      "name": "320_mobile_small",
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "height": 740,
+      "name": "360_mobile_android",
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "name": "375_mobile_iphone_se",
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "390_mobile_iphone_14",
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "name": "430_mobile_iphone_promax",
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "768_tablet_portrait",
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "name": "1024_tablet_landscape",
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "name": "1440_desktop",
+      "overflow": false,
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "name": "1920_large_desktop",
+      "overflow": false,
+      "status": "PASS"
+    }
+  ],
+  "routesTested": [
+    {
+      "route": "/",
+      "title": "GES Quality Education | The Future of Learning | Sultanate of Oman",
+      "status": "PASS"
+    },
+    {
+      "route": "/about",
+      "title": "GES Quality Education | The Future of Learning | Sultanate of Oman",
+      "status": "PASS"
+    },
+    {
+      "route": "/operational",
+      "title": "GES Quality Education | The Future of Learning | Sultanate of Oman",
+      "status": "PASS"
+    },
+    {
+      "route": "/schools",
+      "title": "GES Quality Education | The Future of Learning | Sultanate of Oman",
+      "status": "PASS"
+    },
+    {
+      "route": "/partner",
+      "title": "GES Quality Education | The Future of Learning | Sultanate of Oman",
+      "status": "PASS"
+    },
+    {
+      "route": "/careers",
+      "title": "GES Quality Education | The Future of Learning | Sultanate of Oman",
+      "status": "PASS"
+    },
+    {
+      "route": "/news",
+      "title": "GES Quality Education | The Future of Learning | Sultanate of Oman",
+      "status": "PASS"
+    },
+    {
+      "route": "/contact",
+      "title": "GES Quality Education | The Future of Learning | Sultanate of Oman",
+      "status": "PASS"
+    }
+  ],
+  "formsTested": [
+    {
+      "form": "Contact Form",
+      "status": "PASS"
+    },
+    {
+      "form": "Newsletter Form",
+      "status": "PASS"
+    }
+  ],
+  "modalsTested": [
+    {
+      "test": "Chairman Expansion",
+      "status": "PASS"
+    },
+    {
+      "test": "Video Modal (YouTube Embed Autoplay)",
+      "status": "PASS"
+    },
+    {
+      "test": "Cookie Policy Notice",
+      "status": "PASS"
+    }
+  ],
+  "redirectsTested": [
+    {
+      "from": "/index.php",
+      "expected": "/",
+      "actual": "/",
+      "status": "PASS"
+    },
+    {
+      "from": "/about.php",
+      "expected": "/about",
+      "actual": "/about",
+      "status": "PASS"
+    },
+    {
+      "from": "/operational.php",
+      "expected": "/operational",
+      "actual": "/operational",
+      "status": "PASS"
+    },
+    {
+      "from": "/schools.php",
+      "expected": "/schools",
+      "actual": "/schools",
+      "status": "PASS"
+    },
+    {
+      "from": "/partner.php",
+      "expected": "/partner",
+      "actual": "/partner",
+      "status": "PASS"
+    },
+    {
+      "from": "/careers.php",
+      "expected": "/careers",
+      "actual": "/careers",
+      "status": "PASS"
+    },
+    {
+      "from": "/news.php",
+      "expected": "/news",
+      "actual": "/news",
+      "status": "PASS"
+    },
+    {
+      "from": "/contact.php",
+      "expected": "/contact",
+      "actual": "/contact",
+      "status": "PASS"
+    }
+  ]
+}
